@@ -1,0 +1,31 @@
+1. (Ex-1c)
+Five Bikers Compete in a race such that they drive at a constant speed which may or may not be the same as the other. To qualify the race, the speed of a racer must be more than the average speed of all 5 racers. Take as input the speed of each racer and print back the speed of qualifying racers. 
+
+2. (Ex-2b Bubble sort)
+Write a JAVA program to sort for an element in a given list of elements using bubble sort.
+
+3. (Ex-6 Inheritance)
+Define a class named Person that contains two instance variables of type String that stores the first name and last name of a person and appropriate accessor and mutator methods. Also create a method named displayDetails that outputs the details of a person. Next, define a class named Student that is derived from Person , the constructor for which should receive first name and last name from the class Student and also assigns values to student id, course, and teacher name. This class should redefine the displayDetails method to person details as well as details of a student. Include appropriate constructor(s). Define a class named Teacher that is derived from Person . This class should contain instance variables for the subject name and salary. Include appropriate constructor(s). Finally, redefine the displayDetails method to include all teacher information in the printout. Create a main method that creates at least two student objects and two teacher objects with different values and calls displayDetails for each.
+
+4. (Ex-9b)
+Write a java program which generates a set of random numbers and then determines negative,positive even,positive odd numbers concurrently
+
+5. (ex-10a)
+Write a program that will count the total occurrences of the number ‘10’ in a text file of strings representing numbers of type int and will show the value of the count on the screen once the whole file is read. The file contains the following numbers separated by space. 104781034111015610. 
+
+6. (ex-5 Methods)
+You are running a courier agency. The weight of a parcel determines the number of stamps that will be needed to send that parcel. For each kilogram, a stamp of $2 is needed. Create a class to accept the weight of five parcels in floating-point values. Also, the courier company charges an additional rate depending on where the courier has to be delivered. The charges are $20 for delivery within the city of posting, and $40 for delivery anywhere else in the country. Write a computer program to calculate and display the total cost of each parcel depending on the weight and delivery location of the parcel.
+
+7. (Ex-9a)
+Write a program to simulate a buzzer. The program should make use of the Thread class. Create a class named Buzzer that extends the Thread class. Create an interface named  MonitorTime which contains a method setBuzzerTime() . Your Buzzer class should  implement this interface. Override setBuzzerTime() method to set the buzzer time delay in milliseconds and the number of times the buzzer should be repeated. Also, include methodsblowBuzzer to start the buzzer.
+
+8. (Ex-4)
+Define a class called Book Store to maintain the record of books sold. The store contains three categories of books i.e. “Kids”, “Engineering”, and “Story”. The following details should be maintained for each book. Book category, Author, Title, Publisher, Selling price of the book, Quantity. Create a constructor that initializes the Store ID and the rest of the details of the book mentioned above. Include a method named track Sales Status that will display the total number of books sold by the store (add a static variable that tracks the total number of books sold). Also, include a method to display the quantity available corresponding to each Book ID. Write a main method to test your class.
+
+9. (Ex-3a)
+Define a class called CalAge . This class is used to calculate age of a person from her or his date of birth and the current date. Include a mutator method that allows the user to enter her or his date of birth and set the value for
+current date. Also include a method to return the age in years and months (for 
+example, 25.5 years) as a double value. Include an additional method to check if the date of birth entered by the user is a valid one. For example, 30 February 2008 is an invalid date. Embed your class in a test program.
+
+10. (Ex-3b)
+Define a class called Journal that could be used to store an entry for a research paper that will be published. The class should have instance variables to store the author’s name, title of the paper, and the date of submission using the Date class from this chapter. Add a constructor to the class that allows the user of the class to set all instance variables. Also add a method, displayDetails , that outputs all the instance variables, and another method called getSubmissionDetails that returns the title of the paper, with the first letter of each word capitalized. Test your class from the main method.
